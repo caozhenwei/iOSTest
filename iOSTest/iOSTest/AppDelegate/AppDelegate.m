@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ZWTabBarVC.h"
+
+#import "TestViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//    self.window.rootViewController = [[ZWTabBarVC alloc] init];
+    
+    TestViewController *testVc = [[TestViewController alloc] init];
+    self.window.rootViewController = testVc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

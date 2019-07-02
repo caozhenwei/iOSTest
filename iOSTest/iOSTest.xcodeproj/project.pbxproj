@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2F64C737AE7D61E100406F7D /* libPods-iOSTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4466508261AAA8AE91549261 /* libPods-iOSTest.a */; };
+		792A244320934DAB00CDAA04 /* ZWTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A244220934DAB00CDAA04 /* ZWTabBarVC.m */; };
+		792A244A2093516300CDAA04 /* ZWBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A24492093516300CDAA04 /* ZWBaseVC.m */; };
+		792A244D2093517300CDAA04 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A244C2093517300CDAA04 /* FirstVC.m */; };
+		792A24502093519200CDAA04 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A244F2093519200CDAA04 /* SecondVC.m */; };
+		792A2453209351A100CDAA04 /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A2452209351A100CDAA04 /* ThirdVC.m */; };
+		792A2456209351AD00CDAA04 /* FourthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A2455209351AD00CDAA04 /* FourthVC.m */; };
+		792A24592093529900CDAA04 /* ZWTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A24582093529900CDAA04 /* ZWTabbar.m */; };
+		792DC5BF20E60DFC00B4B587 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792DC5BE20E60DFC00B4B587 /* TestViewController.m */; };
+		79352AA022BA2C7E00476D17 /* RunloopTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79352A9F22BA2C7E00476D17 /* RunloopTest.m */; };
 		79F74DA82063AFE8001B146D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F74DA62063AFE8001B146D /* Main.storyboard */; };
 		79F74DAA2063AFE8001B146D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F74DA92063AFE8001B146D /* Assets.xcassets */; };
 		79F74DAD2063AFE8001B146D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F74DAB2063AFE8001B146D /* LaunchScreen.storyboard */; };
@@ -37,6 +46,24 @@
 
 /* Begin PBXFileReference section */
 		4466508261AAA8AE91549261 /* libPods-iOSTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		792A244120934DAB00CDAA04 /* ZWTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTabBarVC.h; sourceTree = "<group>"; };
+		792A244220934DAB00CDAA04 /* ZWTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTabBarVC.m; sourceTree = "<group>"; };
+		792A24482093516300CDAA04 /* ZWBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWBaseVC.h; sourceTree = "<group>"; };
+		792A24492093516300CDAA04 /* ZWBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWBaseVC.m; sourceTree = "<group>"; };
+		792A244B2093517300CDAA04 /* FirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		792A244C2093517300CDAA04 /* FirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		792A244E2093519200CDAA04 /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		792A244F2093519200CDAA04 /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		792A2451209351A100CDAA04 /* ThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
+		792A2452209351A100CDAA04 /* ThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
+		792A2454209351AD00CDAA04 /* FourthVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthVC.h; sourceTree = "<group>"; };
+		792A2455209351AD00CDAA04 /* FourthVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthVC.m; sourceTree = "<group>"; };
+		792A24572093529900CDAA04 /* ZWTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTabbar.h; sourceTree = "<group>"; };
+		792A24582093529900CDAA04 /* ZWTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTabbar.m; sourceTree = "<group>"; };
+		792DC5BD20E60DFC00B4B587 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		792DC5BE20E60DFC00B4B587 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		79352A9E22BA2C7E00476D17 /* RunloopTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopTest.h; sourceTree = "<group>"; };
+		79352A9F22BA2C7E00476D17 /* RunloopTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopTest.m; sourceTree = "<group>"; };
 		79F74D9D2063AFE8001B146D /* iOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F74DA72063AFE8001B146D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79F74DA92063AFE8001B146D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +116,70 @@
 				4466508261AAA8AE91549261 /* libPods-iOSTest.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		792A243F20934D5B00CDAA04 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				792A244020934D8600CDAA04 /* Tablebar */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		792A244020934D8600CDAA04 /* Tablebar */ = {
+			isa = PBXGroup;
+			children = (
+				792A244120934DAB00CDAA04 /* ZWTabBarVC.h */,
+				792A244220934DAB00CDAA04 /* ZWTabBarVC.m */,
+				792A24572093529900CDAA04 /* ZWTabbar.h */,
+				792A24582093529900CDAA04 /* ZWTabbar.m */,
+			);
+			path = Tablebar;
+			sourceTree = "<group>";
+		};
+		792A24442093514600CDAA04 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				792A244B2093517300CDAA04 /* FirstVC.h */,
+				792A244C2093517300CDAA04 /* FirstVC.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		792A24452093514600CDAA04 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				792A244E2093519200CDAA04 /* SecondVC.h */,
+				792A244F2093519200CDAA04 /* SecondVC.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		792A24462093514600CDAA04 /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+				792A2454209351AD00CDAA04 /* FourthVC.h */,
+				792A2455209351AD00CDAA04 /* FourthVC.m */,
+			);
+			path = Fourth;
+			sourceTree = "<group>";
+		};
+		792A24472093514600CDAA04 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				792A2451209351A100CDAA04 /* ThirdVC.h */,
+				792A2452209351A100CDAA04 /* ThirdVC.m */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		79352A9D22BA2C5E00476D17 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				79352A9E22BA2C7E00476D17 /* RunloopTest.h */,
+				79352A9F22BA2C7E00476D17 /* RunloopTest.m */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 		79F74D942063AFE8001B146D = {
@@ -150,6 +241,8 @@
 			children = (
 				79F74DD32063D030001B146D /* AppDelegate.h */,
 				79F74DD42063D030001B146D /* AppDelegate.m */,
+				792DC5BD20E60DFC00B4B587 /* TestViewController.h */,
+				792DC5BE20E60DFC00B4B587 /* TestViewController.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -157,8 +250,16 @@
 		79F74DD62063D067001B146D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				79F74DD72063D067001B146D /* ViewController.m */,
+				79352A9D22BA2C5E00476D17 /* test */,
+				792A243F20934D5B00CDAA04 /* Base */,
+				792A24442093514600CDAA04 /* First */,
+				792A24452093514600CDAA04 /* Second */,
+				792A24472093514600CDAA04 /* Third */,
+				792A24462093514600CDAA04 /* Fourth */,
 				79F74DD82063D067001B146D /* ViewController.h */,
+				79F74DD72063D067001B146D /* ViewController.m */,
+				792A24482093516300CDAA04 /* ZWBaseVC.h */,
+				792A24492093516300CDAA04 /* ZWBaseVC.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -359,7 +460,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792A2453209351A100CDAA04 /* ThirdVC.m in Sources */,
 				79F74DD92063D067001B146D /* ViewController.m in Sources */,
+				792A244D2093517300CDAA04 /* FirstVC.m in Sources */,
+				792A244320934DAB00CDAA04 /* ZWTabBarVC.m in Sources */,
+				792A244A2093516300CDAA04 /* ZWBaseVC.m in Sources */,
+				792A24502093519200CDAA04 /* SecondVC.m in Sources */,
+				792A24592093529900CDAA04 /* ZWTabbar.m in Sources */,
+				79352AA022BA2C7E00476D17 /* RunloopTest.m in Sources */,
+				792DC5BF20E60DFC00B4B587 /* TestViewController.m in Sources */,
+				792A2456209351AD00CDAA04 /* FourthVC.m in Sources */,
 				79F74DB02063AFE8001B146D /* main.m in Sources */,
 				79F74DD52063D030001B146D /* AppDelegate.m in Sources */,
 			);
