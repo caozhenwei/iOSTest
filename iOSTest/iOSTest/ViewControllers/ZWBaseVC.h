@@ -10,4 +10,6 @@
 
 @interface ZWBaseVC : UIViewController
 
+@property (nonatomic, strong) NSString *navTitleStr;
+
 @end

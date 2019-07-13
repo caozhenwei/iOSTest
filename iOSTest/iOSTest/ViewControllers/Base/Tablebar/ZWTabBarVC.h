@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CYLTabBarController.h"
 
-@interface ZWTabBarVC : UITabBarController
+@interface ZWTabBarVC : CYLTabBarController
 
 @end

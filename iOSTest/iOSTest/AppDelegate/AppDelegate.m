@@ -19,10 +19,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-//    self.window.rootViewController = [[ZWTabBarVC alloc] init];
-    
-    TestViewController *testVc = [[TestViewController alloc] init];
-    self.window.rootViewController = testVc;
+    self.window.rootViewController = [[ZWTabBarVC alloc] init];
     [self.window makeKeyAndVisible];
     return YES;
 }

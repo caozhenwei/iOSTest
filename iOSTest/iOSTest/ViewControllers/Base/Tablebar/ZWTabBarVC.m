@@ -7,11 +7,11 @@
 //
 
 #import "ZWTabBarVC.h"
-#import "ZWTabbar.h"
 #import "FirstVC.h"
 #import "SecondVC.h"
 #import "ThirdVC.h"
 #import "FourthVC.h"
+#import "ZWBaseNavVC.h"
 
 @interface ZWTabBarVC ()
 
@@ -24,28 +24,61 @@
 
 @implementation ZWTabBarVC
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    [self addTabbar];
-    [self addAllChildViewControllers];
+-(instancetype)init {
+    if (!(self = [super init])) {
+        return nil;
+    }
+    CYLTabBarController *tabBarController = [CYLTabBarController tabBarControllerWithViewControllers:[self viewControllers] tabBarItemsAttributes:[self tabBarItemsAttributesForController]];
+    return (self = (ZWTabBarVC *)tabBarController);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
-
-- (void)addTabbar {
-    ZWTabbar *tabbar = tabbar = [[ZWTabbar alloc] initWithFrame:self.tabBar.frame];
-    [self.tabBar addSubview:tabbar];
+-(NSArray *)viewControllers {
+    FirstVC *firstVC = [[FirstVC alloc] init];
+    ZWBaseNavVC *firstNavVC = [[ZWBaseNavVC alloc] initWithRootViewController:firstVC];
     
-//    self.tabBar.backgroundColor = [UIColor whiteColor];
-//    //去掉系统tabBar的横线
-//    [self.tabBar setBackgroundImage:[UIImage new]];
-//    [self.tabBar setShadowImage:[UIImage new]];
+    SecondVC *secondVC = [[SecondVC alloc] init];
+    ZWBaseNavVC *secondNavVC = [[ZWBaseNavVC alloc] initWithRootViewController:secondVC];
+    
+    ThirdVC *thirdVC = [[ThirdVC alloc] init];
+    ZWBaseNavVC *thirdNavVC = [[ZWBaseNavVC alloc] initWithRootViewController:thirdVC];
+
+    FourthVC *fourthVC = [[FourthVC alloc] init];
+    ZWBaseNavVC *fourthNavVC = [[ZWBaseNavVC alloc] initWithRootViewController:fourthVC];
+    
+    NSArray *controllers = @[firstNavVC,secondNavVC,thirdNavVC,fourthNavVC];
+    return controllers;
 }
 
-- (void)addAllChildViewControllers {
+- (NSArray *)tabBarItemsAttributesForController {
+    NSDictionary *firstTabBarItemsAttributes = @{
+                                                 CYLTabBarItemTitle : @"第一页",
+                                                 CYLTabBarItemImage : @"Mine",  /* NSString and UIImage are supported*/
+                                                 CYLTabBarItemSelectedImage : @"Mine_HighLighted",  /* NSString and UIImage are supported*/
+                                                 };
+    NSDictionary *secondTabBarItemsAttributes = @{
+                                                  CYLTabBarItemTitle : @"第二页",
+                                                  CYLTabBarItemImage : @"Mine",
+                                                  CYLTabBarItemSelectedImage : @"Mine_HighLighted",
+                                                  };
+    NSDictionary *thirdTabBarItemsAttributes = @{
+                                                  CYLTabBarItemTitle : @"第三页",
+                                                  CYLTabBarItemImage : @"Mine",
+                                                  CYLTabBarItemSelectedImage : @"Mine_HighLighted",
+                                                  };
+    NSDictionary *fourthTabBarItemsAttributes = @{
+                                                  CYLTabBarItemTitle : @"第四页",
+                                                  CYLTabBarItemImage : @"Mine",
+                                                  CYLTabBarItemSelectedImage : @"Mine_HighLighted",
+                                                  };
     
+    
+    NSArray *tabBarItemsAttributes = @[
+                                       firstTabBarItemsAttributes,
+                                       secondTabBarItemsAttributes,
+                                       thirdTabBarItemsAttributes,
+                                       fourthTabBarItemsAttributes
+                                       ];
+    return tabBarItemsAttributes;
 }
 
 @end

@@ -1,28 +1,22 @@
 //
-//  ZWBaseVC.m
+//  ZWBaseNavVC.m
 //  iOSTest
 //
-//  Created by caozhenwei on 2018/4/27.
-//  Copyright © 2018 czw. All rights reserved.
+//  Created by caozhenwei on 2019/7/9.
+//  Copyright © 2019 czw. All rights reserved.
 //
 
-#import "ZWBaseVC.h"
+#import "ZWBaseNavVC.h"
 
-@interface ZWBaseVC ()
+@interface ZWBaseNavVC ()
 
 @end
 
-@implementation ZWBaseVC
+@implementation ZWBaseNavVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor lightGrayColor];
-    self.title = self.navTitleStr;
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    // Do any additional setup after loading the view.
 }
 
 /*

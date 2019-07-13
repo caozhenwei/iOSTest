@@ -14,9 +14,13 @@
 		792A24502093519200CDAA04 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A244F2093519200CDAA04 /* SecondVC.m */; };
 		792A2453209351A100CDAA04 /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A2452209351A100CDAA04 /* ThirdVC.m */; };
 		792A2456209351AD00CDAA04 /* FourthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A2455209351AD00CDAA04 /* FourthVC.m */; };
-		792A24592093529900CDAA04 /* ZWTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A24582093529900CDAA04 /* ZWTabbar.m */; };
 		792DC5BF20E60DFC00B4B587 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792DC5BE20E60DFC00B4B587 /* TestViewController.m */; };
 		79352AA022BA2C7E00476D17 /* RunloopTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79352A9F22BA2C7E00476D17 /* RunloopTest.m */; };
+		794A4FB822D491DC000AF4E3 /* ZWBaseNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A4FB722D491DC000AF4E3 /* ZWBaseNavVC.m */; };
+		794A4FBF22D4BB0A000AF4E3 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A4FBE22D4BB0A000AF4E3 /* UIView+Additions.m */; };
+		798BBE7522D99C1D00A57A0A /* NSObjectNatureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 798BBE7422D99C1D00A57A0A /* NSObjectNatureVC.m */; };
+		798BBE7922D99D1D00A57A0A /* FatherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 798BBE7822D99D1D00A57A0A /* FatherClass.m */; };
+		798BBE7C22D99D2E00A57A0A /* SonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 798BBE7B22D99D2E00A57A0A /* SonClass.m */; };
 		79F74DA82063AFE8001B146D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F74DA62063AFE8001B146D /* Main.storyboard */; };
 		79F74DAA2063AFE8001B146D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F74DA92063AFE8001B146D /* Assets.xcassets */; };
 		79F74DAD2063AFE8001B146D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F74DAB2063AFE8001B146D /* LaunchScreen.storyboard */; };
@@ -24,7 +28,6 @@
 		79F74DBA2063AFE8001B146D /* iOSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F74DB92063AFE8001B146D /* iOSTestTests.m */; };
 		79F74DC52063AFE8001B146D /* iOSTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F74DC42063AFE8001B146D /* iOSTestUITests.m */; };
 		79F74DD52063D030001B146D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F74DD42063D030001B146D /* AppDelegate.m */; };
-		79F74DD92063D067001B146D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F74DD72063D067001B146D /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,12 +61,21 @@
 		792A2452209351A100CDAA04 /* ThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
 		792A2454209351AD00CDAA04 /* FourthVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthVC.h; sourceTree = "<group>"; };
 		792A2455209351AD00CDAA04 /* FourthVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthVC.m; sourceTree = "<group>"; };
-		792A24572093529900CDAA04 /* ZWTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTabbar.h; sourceTree = "<group>"; };
-		792A24582093529900CDAA04 /* ZWTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTabbar.m; sourceTree = "<group>"; };
 		792DC5BD20E60DFC00B4B587 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		792DC5BE20E60DFC00B4B587 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		79352A9E22BA2C7E00476D17 /* RunloopTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopTest.h; sourceTree = "<group>"; };
 		79352A9F22BA2C7E00476D17 /* RunloopTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopTest.m; sourceTree = "<group>"; };
+		794A4FB622D491DC000AF4E3 /* ZWBaseNavVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWBaseNavVC.h; sourceTree = "<group>"; };
+		794A4FB722D491DC000AF4E3 /* ZWBaseNavVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWBaseNavVC.m; sourceTree = "<group>"; };
+		794A4FBD22D4BB0A000AF4E3 /* UIView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		794A4FBE22D4BB0A000AF4E3 /* UIView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		794A4FC022D4BBE9000AF4E3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		798BBE7322D99C1D00A57A0A /* NSObjectNatureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObjectNatureVC.h; sourceTree = "<group>"; };
+		798BBE7422D99C1D00A57A0A /* NSObjectNatureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObjectNatureVC.m; sourceTree = "<group>"; };
+		798BBE7722D99D1D00A57A0A /* FatherClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FatherClass.h; sourceTree = "<group>"; };
+		798BBE7822D99D1D00A57A0A /* FatherClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FatherClass.m; sourceTree = "<group>"; };
+		798BBE7A22D99D2E00A57A0A /* SonClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonClass.h; sourceTree = "<group>"; };
+		798BBE7B22D99D2E00A57A0A /* SonClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonClass.m; sourceTree = "<group>"; };
 		79F74D9D2063AFE8001B146D /* iOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F74DA72063AFE8001B146D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79F74DA92063AFE8001B146D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,8 +90,6 @@
 		79F74DC62063AFE8001B146D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79F74DD32063D030001B146D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79F74DD42063D030001B146D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		79F74DD72063D067001B146D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		79F74DD82063D067001B146D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		920364BEDD26C6718B87DD61 /* Pods-iOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTest/Pods-iOSTest.release.xcconfig"; sourceTree = "<group>"; };
 		CE4E62574271FC7A7075D3A6 /* Pods-iOSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSTest/Pods-iOSTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,8 +141,6 @@
 			children = (
 				792A244120934DAB00CDAA04 /* ZWTabBarVC.h */,
 				792A244220934DAB00CDAA04 /* ZWTabBarVC.m */,
-				792A24572093529900CDAA04 /* ZWTabbar.h */,
-				792A24582093529900CDAA04 /* ZWTabbar.m */,
 			);
 			path = Tablebar;
 			sourceTree = "<group>";
@@ -142,6 +150,8 @@
 			children = (
 				792A244B2093517300CDAA04 /* FirstVC.h */,
 				792A244C2093517300CDAA04 /* FirstVC.m */,
+				798BBE7322D99C1D00A57A0A /* NSObjectNatureVC.h */,
+				798BBE7422D99C1D00A57A0A /* NSObjectNatureVC.m */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -176,10 +186,31 @@
 		79352A9D22BA2C5E00476D17 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				798BBE7622D99CFE00A57A0A /* NSObjectNature */,
 				79352A9E22BA2C7E00476D17 /* RunloopTest.h */,
 				79352A9F22BA2C7E00476D17 /* RunloopTest.m */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		794A4FB922D4B9FB000AF4E3 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				794A4FBD22D4BB0A000AF4E3 /* UIView+Additions.h */,
+				794A4FBE22D4BB0A000AF4E3 /* UIView+Additions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		798BBE7622D99CFE00A57A0A /* NSObjectNature */ = {
+			isa = PBXGroup;
+			children = (
+				798BBE7722D99D1D00A57A0A /* FatherClass.h */,
+				798BBE7822D99D1D00A57A0A /* FatherClass.m */,
+				798BBE7A22D99D2E00A57A0A /* SonClass.h */,
+				798BBE7B22D99D2E00A57A0A /* SonClass.m */,
+			);
+			path = NSObjectNature;
 			sourceTree = "<group>";
 		};
 		79F74D942063AFE8001B146D = {
@@ -214,6 +245,7 @@
 				79F74DAB2063AFE8001B146D /* LaunchScreen.storyboard */,
 				79F74DAE2063AFE8001B146D /* Info.plist */,
 				79F74DAF2063AFE8001B146D /* main.m */,
+				794A4FC022D4BBE9000AF4E3 /* PrefixHeader.pch */,
 			);
 			path = iOSTest;
 			sourceTree = "<group>";
@@ -250,16 +282,17 @@
 		79F74DD62063D067001B146D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				794A4FB922D4B9FB000AF4E3 /* Additions */,
 				79352A9D22BA2C5E00476D17 /* test */,
 				792A243F20934D5B00CDAA04 /* Base */,
 				792A24442093514600CDAA04 /* First */,
 				792A24452093514600CDAA04 /* Second */,
 				792A24472093514600CDAA04 /* Third */,
 				792A24462093514600CDAA04 /* Fourth */,
-				79F74DD82063D067001B146D /* ViewController.h */,
-				79F74DD72063D067001B146D /* ViewController.m */,
 				792A24482093516300CDAA04 /* ZWBaseVC.h */,
 				792A24492093516300CDAA04 /* ZWBaseVC.m */,
+				794A4FB622D491DC000AF4E3 /* ZWBaseNavVC.h */,
+				794A4FB722D491DC000AF4E3 /* ZWBaseNavVC.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -461,17 +494,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				792A2453209351A100CDAA04 /* ThirdVC.m in Sources */,
-				79F74DD92063D067001B146D /* ViewController.m in Sources */,
 				792A244D2093517300CDAA04 /* FirstVC.m in Sources */,
 				792A244320934DAB00CDAA04 /* ZWTabBarVC.m in Sources */,
 				792A244A2093516300CDAA04 /* ZWBaseVC.m in Sources */,
 				792A24502093519200CDAA04 /* SecondVC.m in Sources */,
-				792A24592093529900CDAA04 /* ZWTabbar.m in Sources */,
+				794A4FB822D491DC000AF4E3 /* ZWBaseNavVC.m in Sources */,
+				798BBE7522D99C1D00A57A0A /* NSObjectNatureVC.m in Sources */,
 				79352AA022BA2C7E00476D17 /* RunloopTest.m in Sources */,
 				792DC5BF20E60DFC00B4B587 /* TestViewController.m in Sources */,
 				792A2456209351AD00CDAA04 /* FourthVC.m in Sources */,
+				798BBE7C22D99D2E00A57A0A /* SonClass.m in Sources */,
+				798BBE7922D99D1D00A57A0A /* FatherClass.m in Sources */,
 				79F74DB02063AFE8001B146D /* main.m in Sources */,
 				79F74DD52063D030001B146D /* AppDelegate.m in Sources */,
+				794A4FBF22D4BB0A000AF4E3 /* UIView+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +673,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTest/PrefixHeader.pch";
 				INFOPLIST_FILE = iOSTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -654,6 +691,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSTest/PrefixHeader.pch";
 				INFOPLIST_FILE = iOSTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
