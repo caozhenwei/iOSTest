@@ -33,8 +33,8 @@
 
 - (void)initDataSource {
     _dataArray = @[
-                   @{@"NSObjectNatureVC":@"NSNSObject本质"}
-                   
+                   @{@"NSObjectNatureVC":@"NSObject本质"},
+                   @{@"NSObjectIMPLVC":@"NSObject结构体本质"}
                 ];
 }
 

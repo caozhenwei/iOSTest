@@ -16,6 +16,8 @@
 		792A2456209351AD00CDAA04 /* FourthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A2455209351AD00CDAA04 /* FourthVC.m */; };
 		792DC5BF20E60DFC00B4B587 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792DC5BE20E60DFC00B4B587 /* TestViewController.m */; };
 		79352AA022BA2C7E00476D17 /* RunloopTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79352A9F22BA2C7E00476D17 /* RunloopTest.m */; };
+		794173EC22DC436A00BF4501 /* NSObjectIMPL.m in Sources */ = {isa = PBXBuildFile; fileRef = 794173EB22DC436A00BF4501 /* NSObjectIMPL.m */; };
+		794173EF22DC43FE00BF4501 /* NSObjectIMPLVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 794173EE22DC43FE00BF4501 /* NSObjectIMPLVC.m */; };
 		794A4FB822D491DC000AF4E3 /* ZWBaseNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A4FB722D491DC000AF4E3 /* ZWBaseNavVC.m */; };
 		794A4FBF22D4BB0A000AF4E3 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 794A4FBE22D4BB0A000AF4E3 /* UIView+Additions.m */; };
 		798BBE7522D99C1D00A57A0A /* NSObjectNatureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 798BBE7422D99C1D00A57A0A /* NSObjectNatureVC.m */; };
@@ -65,6 +67,10 @@
 		792DC5BE20E60DFC00B4B587 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		79352A9E22BA2C7E00476D17 /* RunloopTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopTest.h; sourceTree = "<group>"; };
 		79352A9F22BA2C7E00476D17 /* RunloopTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopTest.m; sourceTree = "<group>"; };
+		794173EA22DC436A00BF4501 /* NSObjectIMPL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObjectIMPL.h; sourceTree = "<group>"; };
+		794173EB22DC436A00BF4501 /* NSObjectIMPL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObjectIMPL.m; sourceTree = "<group>"; };
+		794173ED22DC43FE00BF4501 /* NSObjectIMPLVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObjectIMPLVC.h; sourceTree = "<group>"; };
+		794173EE22DC43FE00BF4501 /* NSObjectIMPLVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObjectIMPLVC.m; sourceTree = "<group>"; };
 		794A4FB622D491DC000AF4E3 /* ZWBaseNavVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWBaseNavVC.h; sourceTree = "<group>"; };
 		794A4FB722D491DC000AF4E3 /* ZWBaseNavVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWBaseNavVC.m; sourceTree = "<group>"; };
 		794A4FBD22D4BB0A000AF4E3 /* UIView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
@@ -152,6 +158,8 @@
 				792A244C2093517300CDAA04 /* FirstVC.m */,
 				798BBE7322D99C1D00A57A0A /* NSObjectNatureVC.h */,
 				798BBE7422D99C1D00A57A0A /* NSObjectNatureVC.m */,
+				794173ED22DC43FE00BF4501 /* NSObjectIMPLVC.h */,
+				794173EE22DC43FE00BF4501 /* NSObjectIMPLVC.m */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -209,6 +217,8 @@
 				798BBE7822D99D1D00A57A0A /* FatherClass.m */,
 				798BBE7A22D99D2E00A57A0A /* SonClass.h */,
 				798BBE7B22D99D2E00A57A0A /* SonClass.m */,
+				794173EA22DC436A00BF4501 /* NSObjectIMPL.h */,
+				794173EB22DC436A00BF4501 /* NSObjectIMPL.m */,
 			);
 			path = NSObjectNature;
 			sourceTree = "<group>";
@@ -496,6 +506,8 @@
 				792A2453209351A100CDAA04 /* ThirdVC.m in Sources */,
 				792A244D2093517300CDAA04 /* FirstVC.m in Sources */,
 				792A244320934DAB00CDAA04 /* ZWTabBarVC.m in Sources */,
+				794173EC22DC436A00BF4501 /* NSObjectIMPL.m in Sources */,
+				794173EF22DC43FE00BF4501 /* NSObjectIMPLVC.m in Sources */,
 				792A244A2093516300CDAA04 /* ZWBaseVC.m in Sources */,
 				792A24502093519200CDAA04 /* SecondVC.m in Sources */,
 				794A4FB822D491DC000AF4E3 /* ZWBaseNavVC.m in Sources */,
